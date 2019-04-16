@@ -1,0 +1,1 @@
+time this program took is: 0.00024294853 seconds

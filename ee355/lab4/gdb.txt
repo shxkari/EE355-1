@@ -1,0 +1,26 @@
+Starting program: /home/student/ee355/lab4/a.out 
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400a39 in factorial(int) ()
+Single stepping until exit from function _Z9factoriali,
+which has no line number information.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /home/student/ee355/lab4/a.out 
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400a39 in factorial(int) ()
+No line 11 in the current file.
+No line 10 in the current file.
+Single stepping until exit from function _Z9factoriali,
+which has no line number information.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /home/student/ee355/lab4/a.out next
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400a4d in factorial(int) ()
+Starting program: /home/student/ee355/lab4/a.out 
+[Inferior 1 (process 2415) exited normally]

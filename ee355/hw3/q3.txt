@@ -1,0 +1,8 @@
+Using multiple namespace packages could lead to multiple issues. This is because if the namespaces you are using contain functions that have the same function name, both namespaces will import that function into your global namespace. For example:
+   if you have two namespaces 
+      using namespace shahin;
+      using namespace nazarian;
+   and these two have the same function "ee355()" and they share the same
+   parameters, this would lead to a fatal error.
+
+Because issues can arise, you should be cautious and avoid using namespaces that contain functions with the same names and parameters.
